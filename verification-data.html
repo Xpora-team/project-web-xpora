@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -75,6 +76,7 @@
         <!-- Main Content -->
         <div id="content">
             <button class="btn hBack"type="button">Kembali</button>
+            <h4>Detail Akun/ Verification data</h4><br>
             <nav class="bg-secondary mb-4 ml-auto static-top shadow">
               <!-- Topbar Search -->
               <nav class="navbar navbar-expand-md navbar-light">
@@ -87,16 +89,16 @@
                       <a class="nav-link" href="verification-data.html">Verification Data</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Ekspansi Bisnis</a>
+                      <a class="nav-link" href="Da-ekspansi bisnis.html">Ekspansi Bisnis</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Inspirasi</a>
+                      <a class="nav-link" href="Da-inspirasi.html">Inspirasi</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Produk BNI</a>
+                      <a class="nav-link" href="Da-produk bni.html">Produk BNI</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">CLB Record</a>
+                      <a class="nav-link" href="Da-clb record.html">CLB Record</a>
                     </li>
                   </ul>
                 </div>
@@ -106,7 +108,6 @@
           <!-- Begin Page Content -->
                 <table class="table-striped">
                   <thead>
-                    <h1>Detail Akun/ Verification data</h1><br>
                     <div class="container">
                       <div class="main-body">
                         <div class="row">
@@ -114,7 +115,7 @@
                             <div class="card">
                                 <div class="card-body">
                                   <div class="d-flex flex-column align-items-center text-center">
-                                    <img src="https://praxis.co.id/media/image/161052138715ffe9b2bab481" alt="Admin" class="rounded-circle p-1 bg-primary" width="110">
+                                    <img src="https://praxis.co.id/media/image/161052138715ffe9b2bab481" alt="Admin" class="p-1 bg-secondary" width="150">
                                     <div class="mt-2">Assigned officer
                                     </div>
                                     <div class="row mb-3">
@@ -143,10 +144,10 @@
                                       </div>
                                     </div>
                                     <div class="mt-2">
-                                      <button class="btn btn-secondary" type="button">Download all data</button>
+                                      <button class="btn btn-secondary" type="button" style="font-size: 12px;">Download all data</button>
                                     </div>
                                     <div class="mt-2">
-                                      <button class="btn btn-secondary" type="button">Download user data</button>
+                                      <button class="btn btn-secondary" type="button" style="font-size: 12px;">Download verification data</button>
                                     </div>
                                     <div class="mt-2">
                                     </div>
@@ -159,109 +160,235 @@
                               <div class="card-body">
                                 <h5 class="font-weight-bold">Verifikasi legalitas</h5>
                                 <div class="row mb-3">
-                                  <div class="col-sm-6 text-secondary">
+                                  <div class="col-sm-4 text-secondary">
                                     <input type="text" class="form-control" placeholder="NIB">
+                                  </div>
+                                  <div class="checkbox">
+                                    <label><input type="checkbox" value=""> QYC Check</label>
+                                  </div>
+                                  <div class="col-sm-2 text-secondary">
+                                    <input type="text" class="form-control" placeholder="Proof pict">
+                                  </div>
+                                  <div class="col-sm-2">
+                                    <button class="btn btn-secondary" type="button">Upload</button>
+                                  </div>
+                                  <div class="col-sm-2">
+                                    <button class="btn btn-secondary" type="button">Download</button>
                                   </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <div class="col-sm-12 text-secondary">
-                                        <input type="text" class="form-control" placeholder="Email">
+                                    <div class="col-sm-4 text-secondary">
+                                        <input type="text" class="form-control" placeholder="NPWP">
+                                    </div>
+                                    <div class="checkbox">
+                                      <label><input type="checkbox" value=""> QYC Check</label>
+                                    </div>
+                                    <div class="col-sm-2 text-secondary">
+                                      <input type="text" class="form-control" placeholder="Proof pict">
+                                    </div>
+                                    <div class="col-sm-2">
+                                      <button class="btn btn-secondary" type="button">Upload</button>
+                                    </div>
+                                    <div class="col-sm-2">
+                                      <button class="btn btn-secondary" type="button">Download</button>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <div class="col-sm-12 text-secondary">
-                                        <input type="text" class="form-control" placeholder="No telepon">
+                                    <div class="col-sm-4 text-secondary">
+                                        <input type="text" class="form-control" placeholder="No SIUP">
+                                      </div>
+                                      <div class="checkbox">
+                                        <label><input type="checkbox" value=""> QYC Check</label>
+                                      </div>
+                                      <div class="col-sm-2 text-secondary">
+                                        <input type="text" class="form-control" placeholder="Proof pict">
+                                      </div>
+                                      <div class="col-sm-2">
+                                        <button class="btn btn-secondary" type="button">Upload</button>
+                                      </div>
+                                      <div class="col-sm-2">
+                                        <button class="btn btn-secondary" type="button">Download</button>
                                       </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <div class="col-sm-12 text-secondary">
-                                        <input type="text" class="form-control" placeholder="NIK">
+                                    <div class="col-sm-4 text-secondary">
+                                        <input type="text" class="form-control" placeholder="No. PEB">
+                                      </div>
+                                      <div class="checkbox">
+                                        <label><input type="checkbox" value=""> QYC Check</label>
+                                      </div>
+                                      <div class="col-sm-2 text-secondary">
+                                        <input type="text" class="form-control" placeholder="Proof pict">
+                                      </div>
+                                      <div class="col-sm-2">
+                                        <button class="btn btn-secondary" type="button">Upload</button>
+                                      </div>
+                                      <div class="col-sm-2">
+                                        <button class="btn btn-secondary" type="button">Download</button>
                                       </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <div class="col-sm-12 text-secondary">
-                                        <input type="text" class="form-control" placeholder="NPWP">
+                                    <div class="col-sm-4 text-secondary">
+                                        <input type="text" class="form-control" placeholder="No. Akta perusahaan">
+                                      </div>
+                                      <div class="checkbox">
+                                        <label><input type="checkbox" value=""> QYC Check</label>
+                                      </div>
+                                      <div class="col-sm-2 text-secondary">
+                                        <input type="text" class="form-control" placeholder="Proof pict">
+                                      </div>
+                                      <div class="col-sm-2">
+                                        <button class="btn btn-secondary" type="button">Upload</button>
+                                      </div>
+                                      <div class="col-sm-2">
+                                        <button class="btn btn-secondary" type="button">Download</button>
                                       </div>
                                 </div>
                                 <div class="row mb-3">
+                                  <h5 class="font-weight-bold">Keberadaan Usaha</h5>
                                     <div class="col-sm-12 text-secondary">
-                                        <input type="text" class="form-control" placeholder="Domisili">
+                                      <textarea class="form-control" placeholder="Alamat"></textarea>
                                       </div>
+                                </div>
+                                <div class="row mb-3">
+                                  <div class="checkbox">
+                                    <label><input type="checkbox" value=""> QYC Check</label>
+                                  </div>
+                                  <div class="col-sm-4 text-secondary">
+                                    <input type="text" class="form-control" placeholder="Proof pict">
+                                  </div>
+                                  <div class="col-sm-2">
+                                    <button class="btn btn-secondary" type="button">Upload</button>
+                                  </div>
+                                  <div class="col-sm-2">
+                                    <button class="btn btn-secondary" type="button">Download</button>
+                                  </div>
+                                  <div class="col-sm-2">
+                                    <button><i class="fa fa-plus"></i></button>
+                                  </div>
                                 </div>
                             </div>
-
+                            <h5 class="font-weight-bold">Riwayat ekspor</h5>
                             <div class="card">
                             <div class="card-body">
-                            <h5 class="font-weight-bold",>Detail Usaha</h5>
-                            <div class="row mb-3">
-                                <div class="col-sm-12 text-secondary">
-                                    <input type="text" class="form-control" placeholder="Domisili perusahaan">
-                                  </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-sm-12 text-secondary">
-                                    <input type="text" class="form-control" placeholder="Email perusahaan">
-                                  </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-sm-12 text-secondary">
-                                    <input type="text" class="form-control" placeholder="website perusahaan">
-                                  </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-sm-12 text-secondary">
-                                    <input type="text" class="form-control" placeholder="Bidang Usaha">
-                                  </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-sm-12 text-secondary">
-                                    <input type="text" class="form-control" placeholder="Komoditi Usaha">
-                                  </div>
-                            </div>
+                            <h6 class="font-weight-bold">Ekspor 1</h6>
                             <div class="row mb-3">
                                 <div class="col-sm-6 text-secondary">
-                                    <input type="text" class="form-control" placeholder="Skala Produksi">
+                                    <input type="text" class="form-control" placeholder="Komoditas">
                                 </div>
                                 <div class="col-sm-6 text-secondary">
-                                    <input type="text" class="form-control" placeholder="Satuan">
+                                  <input type="text" class="form-control" placeholder="Incoterm">
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col-sm-6 text-secondary">
+                                <input type="text" class="form-control" placeholder="Negara tujuan">
+                              </div>
+                              <div class="col-sm-6 text-secondary">
+                              <input type="text" class="form-control" placeholder="Shipment">
+                            </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col-sm-6 text-secondary">
+                                <input type="text" class="form-control" placeholder="Qty Komoditas">
+                              </div>
+                              <div class="col-sm-6 text-secondary">
+                                <input type="text" class="form-control" placeholder="Amount">
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col-sm-6 text-secondary">
+                                <input type="text" class="form-control" placeholder="Frekuensi ekspor">
+                              </div>
+                              <div class="col-sm-6 text-secondary">
+                                <input type="text" class="form-control" placeholder="Frekuensi ekspor">
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col-sm-5 text-secondary">
+                                <input type="text" class="form-control" placeholder="Proof pict">
+                              </div>
+                              <div class="col-sm-2">
+                                <button class="btn btn-secondary" type="button">Upload</button>
+                              </div>
+                              <div class="col-sm-2">
+                                <button class="btn btn-secondary" type="button">Download</button>
+                              </div>
+                              <div class="col-sm-2">
+                                <div class="col-sm-2">
+                                  <button><i class="fa fa-plus"></i></button>
                                 </div>
+                              </div>
                             </div>
+                           </div>
+                           <div class="card">
+                            <div class="card-body">
                             <div class="row mb-3">
-                                <div class="col-sm-12 text-secondary">
-                                    <input type="text" class="form-control" placeholder="NIB Perusahaan">
-                                  </div>
+                              <div class="col-sm-12 text-secondary text-center">
+                                <button class="btn btn-secondary" type="button">Tambah</button>
+                              </div>
                             </div>
-                            <div class="row mb-3">
-                                <div class="col-sm-12 text-secondary">
-                                    <input type="text" class="form-control" placeholder="NPWP Perusahaan">
-                                  </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-sm-12 text-secondary">
-                                    <input type="text" class="form-control" placeholder="No. SIUP">
-                                  </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-sm-12 text-secondary">
-                                    <input type="text" class="form-control" placeholder="No. PEB">
-                                  </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-sm-12 text-secondary">
-                                    <input type="text" class="form-control" placeholder="No. Akta Perusahaan">
-                                  </div>
-                            </div>
-                           </div> 
-                              <div class="card">
-                              <div class="card-body">
-                              <h5 class="font-weight-bold">User Type</h5>
-                              <div class="row mb-3">
-                                <div class="col-sm-12 text-secondary">
-                                    <input type="text" class="form-control" placeholder="User type">
-                                  </div>
-                                </div>
                           </div>
-                        </div>
+                        </div> 
+                        <h5 class="font-weight-bold">Kuantitas dan Kualitas ekspor</h5>
+                          <div class="card">
+                              <div class="card-body">
+                              <h6 class="font-weight-bold">Komoditas 1</h6>
+                              <div class="row mb-3">
+                                <div class="col-sm-5 text-secondary">
+                                    <input type="text" class="form-control" placeholder="Nama komoditas">
+                                </div>
+                                <div class="col-sm-5 text-secondary">
+                                  <input type="text" class="form-control" placeholder="kuantitas">
+                                </div>
+                              <div class="col-sm-2 text-secondary">
+                                <input type="text" class="form-control" placeholder="Unit">
+                              </div>
+                              </div>
+                              <div class="row mb-3">
+                                <p>Grade 1</p>
+                                <div class="col-sm-3 text-secondary">
+                                  <input type="text" class="form-control" placeholder="Nama komoditas">
+                                </div>
+                                <div class="col-sm-3 text-secondary">
+                                  <input type="text" class="form-control" placeholder="Proof pict">
+                                </div>
+                                <div class="col-sm-2">
+                                  <button class="btn btn-secondary" type="button">Upload</button>
+                                </div>
+                                <div class="col-sm-2">
+                                  <button class="btn btn-secondary" type="button">Download</button>
+                                </div>
+                              </div>
+                              <div class="row mb-3">
+                                <p>Grade 2</p>
+                                <div class="col-sm-3 text-secondary">
+                                  <input type="text" class="form-control" placeholder="Nama komoditas">
+                                </div>
+                                <div class="col-sm-2 text-secondary">
+                                  <input type="text" class="form-control" placeholder="Proof pict">
+                                </div>
+                                <div class="col-sm-2">
+                                  <button class="btn btn-secondary" type="button">Upload</button>
+                                </div>
+                                <div class="col-sm-2">
+                                  <button class="btn btn-secondary" type="button">Download</button>
+                                </div>
+                                <div class="col-sm-1">
+                                  <button><i class="fa fa-plus"></i></button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-body">
+                            <div class="row mb-3">
+                              <div class="col-sm-12 text-secondary text-center">
+                                <button class="btn btn-secondary" type="button">Tambah</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div> 
                         </div>
                             </div>
                           </div>
